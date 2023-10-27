@@ -1,4 +1,4 @@
-﻿@model Filmy.Models.Film
+﻿@model Filmy.Models.Project
 
 @{
     ViewData["Title"] = "Details";
@@ -7,7 +7,7 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Film</h4>
+    <h4>Project</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -28,11 +28,11 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Opis)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ocena)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Epiki)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ocena)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Epiki)
         </dd>
     </dl>
 </div>
